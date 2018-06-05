@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune Teller</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Gypsy Fortune Teller</h2>
+      </div>
+      <form id="fortune-survey">
+        <div class="form-group">
+          <p>In the past year, these <strong>unlucky</strong> events have happed in my life:</p>
+          <input type="checkbox" name="unlucky" value="1">Saw a black cat.<br>
+          <input type="checkbox" name="unlucky" value="1">Walked under a ladder.<br>
+          <input type="checkbox" name="unlucky" value="1">Broke a mirror.<br>
+          <input type="checkbox" name="unlucky" value="1">Split a pole.<br>
+          <input type="checkbox" name="unlucky" value="1">Read the presidents tweets at 2am.<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, these <strong>lucky</strong> events have happened in my life:</p>
+          <input type="checkbox" name="lucky" value="2"> Found a penny that was heads-up.<br>
+          <input type="checkbox" name="lucky" value="2">Shook hands with the Rock.<br>
+          <input type="checkbox" name="lucky" value="2">Rubbed a rabbits foot.<br>
+          <input type="checkbox" name="lucky" value="2">Found a four leaf clover.<br>
+          <input type="checkbox" name="lucky" value="2">Found a sack of money.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="response">
+
+      </span>
+      <br>
+    
+    </div>
+  </body>
+</html>
